@@ -1,0 +1,102 @@
+* {
+	-fx-font-family: 'Roboto', sans-serif;
+}
+.shopBox {
+	-fx-background-color: #FAFAFA;
+}
+	
+}
+.shopButton {
+
+	-fx-text-fill: green;
+	-fx-font-size: 15px;
+}
+
+
+.shopButton:disabled {
+	-fx-text-fill: red;
+	
+	
+}
+.itemQuantity {
+	-fx-font-size: 30px;
+}
+
+.border {
+    	-fx-background-repeat: stretch;
+	-fx-background-color: blue;
+}
+.plusOne {
+	-fx-text-fill: yellow;
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( one-pass-box , black , 2 , 2 , 2 , 2 );
+}
+
+.toolBar {
+	-fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+	-fx-background-color: #EF5350;
+	-fx-padding: 0 0 0 0 ;
+}
+
+.toolBarVBox {
+	-fx-background-color: #E53935;
+}
+.toolBarLabel {
+	-fx-text-fill: #FAFAFA;
+}
+
+.shopLabel {
+	-fx-font-size: 25px;
+
+}
+
+.titleBox{
+	-fx-background-color: #EF5350;
+  	-fx-border-radius: 5 5 0 0;
+  	-fx-background-radius: 5 5 0 0;
+
+  /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.actionsLabel{
+	-fx-background-color: #EF5350;
+  	-fx-border-radius: 5 5 0 0;
+  	-fx-background-radius: 5 5 0 0;
+	-fx-font-size: 20px;
+
+  /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+.actionsBox{
+	-fx-background-color: #FAFAFA;
+}
+
+.statsBox{
+	-fx-background-color: #FAFAFA;
+}
+.upgradeBox{
+	-fx-background-color: #FAFAFA;
+}
+
+.statsLabel {
+	-fx-font-size: 20px;
+	-fx-text-fill: #FAFAFA;
+}
+
+.upgradesLabel {
+	-fx-font-size: 20px;
+	-fx-text-fill: #FAFAFA;
+}
+.shopLabel{
+	-fx-font-size: 20px;
+	-fx-text-fill: #FAFAFA;
+}
+.mainButton {
+	/*-fx-background-color: #F44336;*/
+}
+.statsContent {
+	-fx-font-size: 15px;
+}
+.fpsB {
+	-fx-font-size: 20px;
+}
